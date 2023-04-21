@@ -18,7 +18,12 @@ $pip install -U \
   --no-cache-dir \
   grpcio \
   grpcio-tools \
-  prometheus-client
+  prometheus-client \
+  openai \
+  tensorflow-macos \
+  tensorflow-metal \
+  pandas \
+  scikit-learn
 
 $pip freeze >requirements.txt
 
